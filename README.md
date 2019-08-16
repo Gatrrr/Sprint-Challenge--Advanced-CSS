@@ -42,6 +42,16 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
+1. Adaptive screens are set to a certain width/size. Response responds to the devices size to fit the site. 
+
+2. Mobile takes priority and you build up from mobile to desktop. 
+
+3. This allows for 1rem to equal 1px to make it easier equivalate. (1.6 rem = 16px for example.)
+
+4. Date preprocessing is a technique that involves transforming raw data into an understandable format easier to read and easier to find specific elements. 
+
+5. The entire concept of less is by far the best element. The hardest concept has to be parametric mixins. 
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
