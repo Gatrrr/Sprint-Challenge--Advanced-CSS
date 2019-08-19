@@ -1,1 +1,37 @@
 // Mixins Here
+
+.display(){
+  align-items: center; 
+  justify-content:space-evenly;
+}
+
+.captain(){
+  width:100%;
+  flex-wrap:wrap;
+}
+
+
+
+// Parametric Mixin Here 
+
+.displaymixin(@justify, @align){
+	display:flex;
+	justify-content:@justify;
+	align-items:@align;
+}
+
+.custom-btn(@bcolor, @bsize ){
+    text-decoration:none;
+    border:none;
+    padding:8px 18px;
+    background-color:@header-font-color;
+    color:@bcolor;
+    font-weight:bold;
+    font-size:@bsize;
+    border-radius:5px;
+    cursor:pointer;
+    &:hover{
+      background-color:white;
+      color:@header-font-color;
+    }
+  }

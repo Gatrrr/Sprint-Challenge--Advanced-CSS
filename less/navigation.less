@@ -1,1 +1,33 @@
 // Navigation code here
+
+nav {
+    .displaymixin(@center, @center);
+    .captain();
+    background-color:@nav-bg;
+    padding-top:15px;
+
+    h1{
+        width:100%;
+        text-align:center; 
+        font-size:4rem;
+    }
+
+    a{
+        text-decoration:none;
+        color:@nav-font; 
+        vertical-align:top;	
+        font-size:1.5rem;
+        .display();
+        margin-top:25px;
+        font-weight:bold;
+        margin:20px;
+    }
+}
+
+// @media @phone {
+//     nav{
+//         a{
+//             font-size:1rem;
+//         }
+//     }
+// }
